@@ -1,0 +1,38 @@
+{
+    "proyecto": "Elon Musk",
+    "adj": "El empresario que anticipa el futuro",
+    "nombre": "Elon Reeve Musk",
+    "nacimiento": "28 de junio de 1971",
+    "descripcion": "es un físico, emprendedor, inventor y magnate sudafricano, nacionalizado canadiense y estadounidense. Cofundador de PayPal, SpaceX, Hyperloop, SolarCity, The Boring Company, Neuralink y OpenAI. Es director general de SpaceX, de Tesla Motors, presidente de SolarCity y copresidente de OpenAI.",
+    "empresas": [
+        {
+            "nombre": "PayPal",
+            "fundacion": 1900
+        },
+        {
+            "nombre": "Tesla Inc.",
+            "fundacion": 2003,
+            "productos": [
+                {
+                    "auto": "Tesla Model 3"
+
+
+                },
+                {
+                    "auto": "Tesla Roadster"
+                }
+            ]
+        },
+        {
+            "nombre": "Space X",
+            "fundacion": 2000,
+            "hitos": "Primera empresa espacial privada en participar con la NASA"
+        },   
+        {
+            "nombre": "Neuralink",
+            "fundacion": 2016,
+            "descripcion": "neurotecnología especializada en el desarrollo de interfaces cerebro-computadora, implantables, también conocidos como Brain-Machine Interfaces o BMI",
+            "imagen": "-"
+        }
+    ]
+}
