@@ -7,26 +7,75 @@
     "empresas": [
         {
             "nombre": "PayPal",
-            "fundacion": 1900
+            "fundacion": 1998,
+            "descripcion":"empresa operadora de pagos en linea",
+            "hitos":"en 2002 Ebay compró la empresa ya que era usado por mas del 50% de sus usuarios y competia con su sistema de pago propio (BillPoint)",
+            "imagen":"-"
         },
         {
             "nombre": "Tesla Inc.",
             "fundacion": 2003,
+            "descripcion":"Empresa que diseña, fabrica y vende automoviles electricos, componentes para la propulsión de vehiculos y baterias automaticas",
+            "hitos":"en 2008 abre su primera tienda comercial, ya que hasta entonces la venta de vehiculos se realizaba por telefono, internet o en la sede central",
             "productos": [
                 {
-                    "auto": "Tesla Model 3"
+                    "auto": "Tesla Model 3",
+                    "tipo": "Sedan",
+                    "fabricacion": 2016,
+                    "velocidad":"260 Km/h",
+                    "puertas":4
+                    
 
 
                 },
                 {
-                    "auto": "Tesla Roadster"
+                    "auto": "Tesla Roadster",
+                    "tipo": "deportivo",
+                    "fabricacion": 2008,
+                    "velocidad":"400 km/h",
+                    "puertas":2
+                },
+                {
+                    "auto":"Tesla Model S",
+                    "tipo": "luxury car",
+                    "fabricacion": 2012,
+                    "velocidad":"250 Km/h",
+                    "puertas":4
+                },
+                {
+                    "auto":"Tesla Model X",
+                    "tipo": "crossover",
+                    "fabricacion": 2015,
+                    "velocidad":"260 Km/h",
+                    "puertas":4
+                },
+                {
+                    "auto":"Tesla Model Y",
+                    "tipo": "CUV",
+                    "fabricacion": 2020,
+                    "velocidad":"241 Km/h",
+                    "puertas":4
                 }
             ]
         },
         {
             "nombre": "Space X",
-            "fundacion": 2000,
-            "hitos": "Primera empresa espacial privada en participar con la NASA"
+            "fundacion": 2002,
+            "descripcion":"Empresa de fabricación aerospacial y de servicios de transporte espacial",
+            "hitos": "Primera empresa espacial privada en participar con la NASA",
+            "vehiculos":
+            [
+                {
+                    "vehiculo":"Falcon Heavy"
+                },
+                {
+                    "vehiculo":"SpaceX CRS-14"
+                },
+                {
+                    "vehiculo":"Starship"
+                }
+            ]
+            
         },   
         {
             "nombre": "Neuralink",
@@ -37,7 +86,15 @@
         {
             "nombre": "SolarCity",
             "fundacion": 2006,
-            "descripcion": "",
+            "descripcion": "Empresa subsidiaria de Tesla Inc. especializada en la energía solar que diseña, financia e instala  sistemas energeticos",
+            "hitos": "en 2020 lanzó la Fundación De Energía para proporcionar energía solar a los más desfavorecidos",
+            "imagen": "-"
+        },
+        {
+            "nombre": "OpenAI",
+            "fundacion": 2015,
+            "descripcion": "Compañia de investigacion de inteligencia artificial sin fines de lucro que tiene como objetivo promover y desarrollar IA amigable para beneficio de la humanidad",
+            "hitos": "En 2016, lanzó Universe, una plataforma de software para medir y entrenar la inteligencia general de IA en todo el suministro de juegos, sitios web y otras aplicaciones del mundo",
             "imagen": "-"
         }
     ]
