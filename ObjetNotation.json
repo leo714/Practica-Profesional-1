@@ -33,6 +33,12 @@
             "fundacion": 2016,
             "descripcion": "neurotecnología especializada en el desarrollo de interfaces cerebro-computadora, implantables, también conocidos como Brain-Machine Interfaces o BMI",
             "imagen": "-"
+        },
+        {
+            "nombre": "SolarCity",
+            "fundacion": 2006,
+            "descripcion": "",
+            "imagen": "-"
         }
     ]
 }
