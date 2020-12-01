@@ -67,13 +67,22 @@
             [
                 {
                     "vehiculo":"Falcon Heavy",
-                    "funcionalidad":
+                    "funcionalidad":"vuelo espacial orbital",
+                    "peso:":"64 toneldas",
+                    "lanzamiento":"2018"
                 },
                 {
-                    "vehiculo":"SpaceX CRS-14"
+                    "vehiculo":"SpaceX CRS-14",
+                    "funcionalidad":"suministro",
+                    "peso":"4,2 toneladas",
+                    "lanzamiento":"2018"
+
                 },
                 {
-                    "vehiculo":"Starship"
+                    "vehiculo":"Starship",
+                    "funcionalidad":"colonización de marte",
+                    "peso":"5 toneladas",
+                    "lanzamiento":"2021"
                 }
             ]
             
@@ -82,6 +91,7 @@
             "nombre": "Neuralink",
             "fundacion": 2016,
             "descripcion": "neurotecnología especializada en el desarrollo de interfaces cerebro-computadora, implantables, también conocidos como Brain-Machine Interfaces o BMI",
+            "hitos":"a partir del 2017 las neuroprotesis fueron capaces de interpretar ordenes cerebrales cosa que seria un avance revolucionario para gente discapacitada",
             "imagen": "-"
         },
         {
