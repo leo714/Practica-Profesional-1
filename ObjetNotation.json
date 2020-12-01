@@ -66,7 +66,8 @@
             "vehiculos":
             [
                 {
-                    "vehiculo":"Falcon Heavy"
+                    "vehiculo":"Falcon Heavy",
+                    "funcionalidad":
                 },
                 {
                     "vehiculo":"SpaceX CRS-14"
