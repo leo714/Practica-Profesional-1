@@ -3,20 +3,20 @@
     "adj": "El empresario que anticipa el futuro",
     "nombre": "Elon Reeve Musk",
     "nacimiento": "28 de junio de 1971",
-    "descripcion": "es un físico, emprendedor, inventor y magnate sudafricano, nacionalizado canadiense y estadounidense. Cofundador de PayPal, SpaceX, Hyperloop, SolarCity, The Boring Company, Neuralink y OpenAI. Es director general de SpaceX, de Tesla Motors, presidente de SolarCity y copresidente de OpenAI.",
+    "descripcion": "Físico, emprendedor, inventor y magnate sudafricano, nacionalizado canadiense y estadounidense. Cofundador de PayPal, SpaceX, Hyperloop, SolarCity, The Boring Company, Neuralink y OpenAI. Es director general de SpaceX, de Tesla Motors, presidente de SolarCity y copresidente de OpenAI.",
     "empresas": [
         {
             "nombre": "PayPal",
             "fundacion": 1998,
-            "descripcion":"empresa operadora de pagos en linea",
-            "hitos":"en 2002 Ebay compró la empresa ya que era usado por mas del 50% de sus usuarios y competia con su sistema de pago propio (BillPoint)",
+            "descripcion":"Empresa operadora de pagos en linea",
+            "hitos":"En 2002 Ebay compró la empresa ya que era usado por mas del 50% de sus usuarios y competia con su sistema de pago propio (BillPoint)",
             "imagen":"-"
         },
         {
             "nombre": "Tesla Inc.",
             "fundacion": 2003,
             "descripcion":"Empresa que diseña, fabrica y vende automoviles electricos, componentes para la propulsión de vehiculos y baterias automaticas",
-            "hitos":"en 2008 abre su primera tienda comercial, ya que hasta entonces la venta de vehiculos se realizaba por telefono, internet o en la sede central",
+            "hitos":"En 2008 abre su primera tienda comercial, ya que hasta entonces la venta de vehiculos se realizaba por telefono, internet o en la sede central",
             "productos": [
                 {
                     "auto": "Tesla Model 3",
@@ -30,21 +30,21 @@
                 },
                 {
                     "auto": "Tesla Roadster",
-                    "tipo": "deportivo",
+                    "tipo": "Deportivo",
                     "fabricacion": 2008,
                     "velocidad":"400 km/h",
                     "puertas":2
                 },
                 {
                     "auto":"Tesla Model S",
-                    "tipo": "luxury car",
+                    "tipo": "Luxury car",
                     "fabricacion": 2012,
                     "velocidad":"250 Km/h",
                     "puertas":4
                 },
                 {
                     "auto":"Tesla Model X",
-                    "tipo": "crossover",
+                    "tipo": "Crossover",
                     "fabricacion": 2015,
                     "velocidad":"260 Km/h",
                     "puertas":4
@@ -67,20 +67,20 @@
             [
                 {
                     "vehiculo":"Falcon Heavy",
-                    "funcionalidad":"vuelo espacial orbital",
+                    "funcionalidad":"Vuelo espacial orbital",
                     "peso:":"64 toneldas",
                     "lanzamiento":"2018"
                 },
                 {
                     "vehiculo":"SpaceX CRS-14",
-                    "funcionalidad":"suministro",
+                    "funcionalidad":"Suministro",
                     "peso":"4,2 toneladas",
                     "lanzamiento":"2018"
 
                 },
                 {
                     "vehiculo":"Starship",
-                    "funcionalidad":"colonización de marte",
+                    "funcionalidad":"Colonización de marte",
                     "peso":"5 toneladas",
                     "lanzamiento":"2021"
                 }
@@ -90,15 +90,15 @@
         {
             "nombre": "Neuralink",
             "fundacion": 2016,
-            "descripcion": "neurotecnología especializada en el desarrollo de interfaces cerebro-computadora, implantables, también conocidos como Brain-Machine Interfaces o BMI",
-            "hitos":"a partir del 2017 las neuroprotesis fueron capaces de interpretar ordenes cerebrales cosa que seria un avance revolucionario para gente discapacitada",
+            "descripcion": "Neurotecnología especializada en el desarrollo de interfaces cerebro-computadora, implantables, también conocidos como Brain-Machine Interfaces o BMI",
+            "hitos":"A partir del 2017 las neuroprotesis fueron capaces de interpretar ordenes cerebrales cosa que seria un avance revolucionario para gente discapacitada",
             "imagen": "-"
         },
         {
             "nombre": "SolarCity",
             "fundacion": 2006,
             "descripcion": "Empresa subsidiaria de Tesla Inc. especializada en la energía solar que diseña, financia e instala  sistemas energeticos",
-            "hitos": "en 2020 lanzó la Fundación De Energía para proporcionar energía solar a los más desfavorecidos",
+            "hitos": "En 2020 lanzó la Fundación De Energía para proporcionar energía solar a los más desfavorecidos",
             "imagen": "-"
         },
         {

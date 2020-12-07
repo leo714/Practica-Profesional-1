@@ -18,9 +18,17 @@ function completarHeader(ObjetNotation){
     myH1.textContent = ObjetNotation['proyecto'];
     header.appendChild(myH1);
 
-    const myParagraph = document.createElement('p');
+    const myParagraph = document.createElement('h3');
     myParagraph.textContent = ObjetNotation['adj'];
     header.appendChild(myParagraph);
+
+    const myName = document.createElement('p');
+    myName.textContent = ObjetNotation['nombre'];
+    header.appendChild(myName);
+
+    const myDesc = document.createElement('p');
+    myDesc.textContent = ObjetNotation['descripcion'];
+    header.appendChild(myDesc);
 }
 
 
@@ -36,15 +44,18 @@ function completarSection(ObjetNotation) {
         const myLista = document.createElement('ul');
 
         //console.log(empresas[i].hitos);
-        /*
-        for (var j = 0; j < empresas[i].hitos.length; j++) {
+        //const myItem = document.createElement('li');
+        //myItem.textContent = empresas[i].hitos[j];
+        //myLista.appendChild(myItem);
+
+        //for (var j = 0; j < empresas[i].hitos.length; j++) {
             const myItem = document.createElement('li');
-            myItem.textContent = empresas[i].hitos[j];
+            myItem.textContent = empresas[i].hitos;//probar hitos[j]
             myLista.appendChild(myItem);
-        }
-        */
+        //}
+
         myH2.textContent = empresas[i].nombre;
-        myPara1.textContent = 'fundación: ' + empresas[i].fundacion;
+        myPara1.textContent = 'Fundación: ' + empresas[i].fundacion;
         //myPara2.textContent = 'propiedad actual: ' + empresas[i].propiedadActual;
 
         myArticle.appendChild(myH2);

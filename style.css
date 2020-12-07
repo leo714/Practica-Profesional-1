@@ -1,4 +1,4 @@
-h1, p {
+header h1, header h3 {
     background-color: black;
     color: whitesmoke;
     text-align: center;
@@ -14,7 +14,15 @@ p {
     font-size: 22px;
 }
 
-section p, h2 {
+header p {
+    color: aliceblue;
+    background-color: rgba(153,153,153, 0.7);
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+
+section { /*p, h2?¿*/
     color: aliceblue;
     text-align: left;
     float: left;
@@ -23,7 +31,7 @@ section p, h2 {
 
 /* FONDO VIDEO */
 .contenido__video{
-    background: #7DD174;
+    background: #000000;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -93,4 +101,22 @@ section p, h2 {
     100% {margin-left: -300%;}
 }
    
+   /*-------------------------*/
+
+   /* //25/11 */
+   section article{
+       background-color: rgba(153,153,153, 0.5);
+       width : 33%;
+       float : center;/* left*/
+       border : 2px solid black;
+       margin: 15px;
+       padding: 10px;
+       min-height: 80px;
+    }
+
+
+/* modificacion en css para li, selecciona todo el section*/
+/* poner un div adentro para las imagenes */
+
+
 /* Cascade Style Sheet */
