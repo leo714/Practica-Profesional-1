@@ -17,6 +17,7 @@ p {
 section p, h2 {
     color: aliceblue;
     text-align: left;
+    float: left;
 }
 
 
@@ -55,5 +56,41 @@ section p, h2 {
      width: 300%;
     }
    }
+   slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 400%;
+    animation: change 20s infinite alternate;
+    animation-timing-function: case-out;
+}
+
+.slider li{
+    list-style: none;
+    width: 66%;
+}
+
+.slider img{
+    width: 66%;
+}
+
+@keyframes change {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
    
 /* Cascade Style Sheet */
