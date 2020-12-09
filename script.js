@@ -66,7 +66,15 @@ function completarSection(ObjetNotation) {
                 const vehiculos = document.createElement('li');
                 vehiculos.textContent = empresas[2].vehiculos[j].vehiculo;
                 myLista2.appendChild(vehiculos);
-            }        
+            }       
+
+            if (empresas[i].nombre == "Tesla Inc."){
+                myLista2.textContent = 'Vehiculos: ';
+                for(var j = 0; j < empresas[3].productos.length; j++){
+                    const productos = document.createElement('li');
+                    productos.textContent = empresas[3].productos[j].auto;
+                    myLista2.appendChild(productos);
+                }    }
            
             myArticle.appendChild(myLista2);
         }
