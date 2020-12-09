@@ -46,6 +46,7 @@ function completarSection(ObjetNotation) {
         const myDescription = document.createElement('p');
         const myLista = document.createElement('ul');
         const myLista2 = document.createElement('ul');
+        const myLista3= document.createElement('ul');
 
         const myItem = document.createElement('li');
         myItem.textContent = empresas[i].hitos;
@@ -73,10 +74,11 @@ function completarSection(ObjetNotation) {
                 for(var j = 0; j < empresas[3].productos.length; j++){
                     const productos = document.createElement('li');
                     productos.textContent = empresas[3].productos[j].auto;
-                    myLista2.appendChild(productos);
+                    myLista3.appendChild(productos);
                 }    }
            
             myArticle.appendChild(myLista2);
+            myArticle.appendChild(myLista3);
         }
 
         section.appendChild(myArticle);
