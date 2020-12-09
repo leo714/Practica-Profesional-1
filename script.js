@@ -77,12 +77,12 @@ function completarSection(ObjetNotation) {
                     productos.textContent = empresas[3].productos[j].auto;
                     myLista3.appendChild(productos);
                 } 
-               
+            }
            
             myArticle.appendChild(myLista2);
             myArticle.appendChild(myLista3);
-        }
+
+    }
 
         section.appendChild(myArticle);
-    }
-}
+ }
