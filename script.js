@@ -46,7 +46,7 @@ function completarSection(ObjetNotation) {
         const myDescription = document.createElement('p');
         const myLista = document.createElement('ul');
         const myLista2 = document.createElement('ul');
-        //const myLista3= document.createElement('ul');
+        const myLista3= document.createElement('ul');
 
         const myItem = document.createElement('li');
         myItem.textContent = empresas[i].hitos;

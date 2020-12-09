@@ -24,14 +24,14 @@ header p {
 
 section {
     color: aliceblue;
-    text-align: left;
+    vertical-align: middle;
+    /* text-align: left; */
 }
 
 section ul, section li{
     font-size: 22px;
     color: lightgreen;
 }
-
 
 /* FONDO VIDEO */
 .contenido__video{
@@ -72,11 +72,11 @@ section ul, section li{
 section article{
     background-color: rgba(153,153,153, 0.5);
     width : 33%;
-    float : left;
+    float: left;
     border : 2px solid black;
     margin: 15px;
     padding: 10px;
-    min-height: 80px;
+    min-height: 100px;
  }
 
 
