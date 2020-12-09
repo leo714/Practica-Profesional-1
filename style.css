@@ -22,10 +22,14 @@ header p {
 }
 
 
-section { /*p, h2?¿*/
+section {
     color: aliceblue;
     text-align: left;
-    float: left;
+}
+
+section ul, section li{
+    font-size: 22px;
+    color: lightgreen;
 }
 
 
@@ -64,7 +68,19 @@ section { /*p, h2?¿*/
      width: 300%;
     }
    }
-   slider {
+
+section article{
+    background-color: rgba(153,153,153, 0.5);
+    width : 33%;
+    float : left;
+    border : 2px solid black;
+    margin: 15px;
+    padding: 10px;
+    min-height: 80px;
+ }
+
+
+.slider {
     width: 95%;
     margin: auto;
     overflow: hidden;
@@ -100,23 +116,3 @@ section { /*p, h2?¿*/
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
-   
-   /*-------------------------*/
-
-   /* //25/11 */
-   section article{
-       background-color: rgba(153,153,153, 0.5);
-       width : 33%;
-       float : center;/* left*/
-       border : 2px solid black;
-       margin: 15px;
-       padding: 10px;
-       min-height: 80px;
-    }
-
-
-/* modificacion en css para li, selecciona todo el section*/
-/* poner un div adentro para las imagenes */
-
-
-/* Cascade Style Sheet */

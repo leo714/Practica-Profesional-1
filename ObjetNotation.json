@@ -3,14 +3,49 @@
     "adj": "El empresario que anticipa el futuro",
     "nombre": "Elon Reeve Musk",
     "nacimiento": "28 de junio de 1971",
-    "descripcion": "Físico, emprendedor, inventor y magnate sudafricano, nacionalizado canadiense y estadounidense. Cofundador de PayPal, SpaceX, Hyperloop, SolarCity, The Boring Company, Neuralink y OpenAI. Es director general de SpaceX, de Tesla Motors, presidente de SolarCity y copresidente de OpenAI.",
+    "descripcion": "Físico, emprendedor, inventor sudafricano",
     "empresas": [
         {
             "nombre": "PayPal",
             "fundacion": 1998,
             "descripcion":"Empresa operadora de pagos en linea",
-            "hitos":"En 2002 Ebay compró la empresa ya que era usado por mas del 50% de sus usuarios y competia con su sistema de pago propio (BillPoint)",
-            "imagen":"-"
+            "hitos":"En 2002 Ebay compró la empresa ya que era usado por mas del 50% de sus usuarios y competia con su sistema de pago propio (BillPoint)"
+        },
+        {
+            "nombre": "Neuralink",
+            "fundacion": 2016,
+            "descripcion": "Neurotecnología especializada en el desarrollo de interfaces cerebro-computadora, implantables, también conocidos como Brain-Machine Interfaces o BMI",
+            "hitos":"A partir del 2017 las neuroprotesis fueron capaces de interpretar ordenes cerebrales cosa que seria un avance revolucionario para gente discapacitada",
+            "imagen": "-"
+        },
+        {
+            "nombre": "Space X",
+            "fundacion": 2002,
+            "descripcion":"Empresa de fabricación aerospacial y de servicios de transporte espacial",
+            "hitos": "Primera empresa espacial privada en participar con la NASA",
+            "vehiculos":
+            [
+                {
+                    "vehiculo":"Falcon Heavy",
+                    "funcionalidad":"Vuelo espacial orbital",
+                    "peso:":"64 toneldas",
+                    "lanzamiento":"2018"
+                },
+                {
+                    "vehiculo":"SpaceX CRS-14",
+                    "funcionalidad":"Suministro",
+                    "peso":"4,2 toneladas",
+                    "lanzamiento":"2018"
+
+                },
+                {
+                    "vehiculo":"Starship",
+                    "funcionalidad":"Colonización de marte",
+                    "peso":"5 toneladas",
+                    "lanzamiento":"2021"
+                }
+            ]
+            
         },
         {
             "nombre": "Tesla Inc.",
@@ -24,9 +59,6 @@
                     "fabricacion": 2016,
                     "velocidad":"260 Km/h",
                     "puertas":4
-                    
-
-
                 },
                 {
                     "auto": "Tesla Roadster",
@@ -57,42 +89,6 @@
                     "puertas":4
                 }
             ]
-        },
-        {
-            "nombre": "Space X",
-            "fundacion": 2002,
-            "descripcion":"Empresa de fabricación aerospacial y de servicios de transporte espacial",
-            "hitos": "Primera empresa espacial privada en participar con la NASA",
-            "vehiculos":
-            [
-                {
-                    "vehiculo":"Falcon Heavy",
-                    "funcionalidad":"Vuelo espacial orbital",
-                    "peso:":"64 toneldas",
-                    "lanzamiento":"2018"
-                },
-                {
-                    "vehiculo":"SpaceX CRS-14",
-                    "funcionalidad":"Suministro",
-                    "peso":"4,2 toneladas",
-                    "lanzamiento":"2018"
-
-                },
-                {
-                    "vehiculo":"Starship",
-                    "funcionalidad":"Colonización de marte",
-                    "peso":"5 toneladas",
-                    "lanzamiento":"2021"
-                }
-            ]
-            
-        },   
-        {
-            "nombre": "Neuralink",
-            "fundacion": 2016,
-            "descripcion": "Neurotecnología especializada en el desarrollo de interfaces cerebro-computadora, implantables, también conocidos como Brain-Machine Interfaces o BMI",
-            "hitos":"A partir del 2017 las neuroprotesis fueron capaces de interpretar ordenes cerebrales cosa que seria un avance revolucionario para gente discapacitada",
-            "imagen": "-"
         },
         {
             "nombre": "SolarCity",

@@ -26,6 +26,10 @@ function completarHeader(ObjetNotation){
     myName.textContent = ObjetNotation['nombre'];
     header.appendChild(myName);
 
+    const Date = document.createElement('p');
+    Date.textContent = ObjetNotation['nacimiento'];
+    header.appendChild(Date);
+
     const myDesc = document.createElement('p');
     myDesc.textContent = ObjetNotation['descripcion'];
     header.appendChild(myDesc);
@@ -34,38 +38,39 @@ function completarHeader(ObjetNotation){
 
 function completarSection(ObjetNotation) {
     const empresas = ObjetNotation['empresas'];
-    //console.log(empresas.length);
 
     for (var i = 0; i < empresas.length; i++) {
-        const myArticle = document.createElement('article');//?
+        const myArticle = document.createElement('article');
         const myH2 = document.createElement('h2');
         const myPara1 = document.createElement('p');
-        //const myPara2 = document.createElement('p');
+        const myDescription = document.createElement('p');
         const myLista = document.createElement('ul');
+        const myLista2 = document.createElement('ul');
 
-        //console.log(empresas[i].hitos);
-        //const myItem = document.createElement('li');
-        //myItem.textContent = empresas[i].hitos[j];
-        //myLista.appendChild(myItem);
-
-        //for (var j = 0; j < empresas[i].hitos.length; j++) {
-            const myItem = document.createElement('li');
-            myItem.textContent = empresas[i].hitos;//probar hitos[j]
-            myLista.appendChild(myItem);
-        //}
+        const myItem = document.createElement('li');
+        myItem.textContent = empresas[i].hitos;
+        myLista.appendChild(myItem);
 
         myH2.textContent = empresas[i].nombre;
         myPara1.textContent = 'Fundación: ' + empresas[i].fundacion;
-        //myPara2.textContent = 'propiedad actual: ' + empresas[i].propiedadActual;
+        myDescription.textContent = 'Descripción: ' + empresas[i].descripcion;
 
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
-        //myArticle.appendChild(myPara2);
+        myArticle.appendChild(myDescription);
         myArticle.appendChild(myLista);
+
+        if (empresas[i].nombre == "Space X"){
+            myLista2.textContent = 'Vehiculos: ';
+            for(var j = 0; j < empresas[2].vehiculos.length; j++){
+                const vehiculos = document.createElement('li');
+                vehiculos.textContent = empresas[2].vehiculos[j].vehiculo;
+                myLista2.appendChild(vehiculos);
+            }        
+           
+            myArticle.appendChild(myLista2);
+        }
 
         section.appendChild(myArticle);
     }
 }
-
-
-/*  --------------- */
