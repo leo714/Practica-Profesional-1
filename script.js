@@ -6,14 +6,14 @@ request.open('GET', 'ObjetNotation.json');
 request.responseType = 'json';
 request.send();
 
-request.onload = function() {
+request.onload = function () {
     const empresas = request.response;
     completarHeader(empresas);
     completarSection(empresas);
 }
 
 
-function completarHeader(ObjetNotation){
+function completarHeader(ObjetNotation) {
     const myH1 = document.createElement('h1');
     myH1.textContent = ObjetNotation['proyecto'];
     header.appendChild(myH1);
@@ -46,7 +46,7 @@ function completarSection(ObjetNotation) {
         const myDescription = document.createElement('p');
         const myLista = document.createElement('ul');
         const myLista2 = document.createElement('ul');
-        const myLista3= document.createElement('ul');
+        const myLista3 = document.createElement('ul');
 
         const myItem = document.createElement('li');
         myItem.textContent = empresas[i].hitos;
@@ -61,31 +61,27 @@ function completarSection(ObjetNotation) {
         myArticle.appendChild(myDescription);
         myArticle.appendChild(myLista);
 
-        if (empresas[i].nombre == "Space X"){
+        if (empresas[i].nombre == "Space X") {
             myLista2.textContent = 'Vehiculos: ';
-            for(var j = 0; j < empresas[2].vehiculos.length; j++){
+            for (var j = 0; j < empresas[2].vehiculos.length; j++) {
                 const vehiculos = document.createElement('li');
                 vehiculos.textContent = empresas[2].vehiculos[j].vehiculo;
                 myLista2.appendChild(vehiculos);
-               
-            }       
-             myArticle.appendChild(myLista2);  
+            }
+            myArticle.appendChild(myLista2);
         }
 
-        
-        if (empresas[i].nombre == "Tesla Inc."){
+        if (empresas[i].nombre == "Tesla Inc.") {
             myLista3.textContent = 'Vehiculos: ';
-                for(var j = 0; j < empresas[3].productos.length; j++){
-                    const productos = document.createElement('li');
-                    productos.textContent = empresas[3].productos[j].auto;
-                    myLista3.appendChild(productos);
-                   
-                } 
-                 myArticle.appendChild(myLista3);
+            for (var j = 0; j < empresas[3].productos.length; j++) {
+                const productos = document.createElement('li');
+                productos.textContent = empresas[3].productos[j].auto;
+                myLista3.appendChild(productos);
+            }
+            myArticle.appendChild(myLista3);
         }
-           
         
         section.appendChild(myArticle);
     }
 
- }
+}

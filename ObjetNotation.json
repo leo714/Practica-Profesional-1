@@ -15,16 +15,14 @@
             "nombre": "Neuralink",
             "fundacion": 2016,
             "descripcion": "Neurotecnología especializada en el desarrollo de interfaces cerebro-computadora, implantables, también conocidos como Brain-Machine Interfaces o BMI",
-            "hitos":"A partir del 2017 las neuroprotesis fueron capaces de interpretar ordenes cerebrales cosa que seria un avance revolucionario para gente discapacitada",
-            "imagen": "-"
+            "hitos":"A partir del 2017 las neuroprotesis fueron capaces de interpretar ordenes cerebrales cosa que seria un avance revolucionario para gente discapacitada"
         },
         {
             "nombre": "Space X",
             "fundacion": 2002,
             "descripcion":"Empresa de fabricación aerospacial y de servicios de transporte espacial",
             "hitos": "Primera empresa espacial privada en participar con la NASA",
-            "vehiculos":
-            [
+            "vehiculos":[
                 {
                     "vehiculo":"Falcon Heavy",
                     "funcionalidad":"Vuelo espacial orbital",
@@ -36,7 +34,6 @@
                     "funcionalidad":"Suministro",
                     "peso":"4,2 toneladas",
                     "lanzamiento":"2018"
-
                 },
                 {
                     "vehiculo":"Starship",
@@ -94,15 +91,13 @@
             "nombre": "SolarCity",
             "fundacion": 2006,
             "descripcion": "Empresa subsidiaria de Tesla Inc. especializada en la energía solar que diseña, financia e instala  sistemas energeticos",
-            "hitos": "En 2020 lanzó la Fundación De Energía para proporcionar energía solar a los más desfavorecidos",
-            "imagen": "-"
+            "hitos": "En 2020 lanzó la Fundación De Energía para proporcionar energía solar a los más desfavorecidos"
         },
         {
             "nombre": "OpenAI",
             "fundacion": 2015,
             "descripcion": "Compañia de investigacion de inteligencia artificial sin fines de lucro que tiene como objetivo promover y desarrollar IA amigable para beneficio de la humanidad",
-            "hitos": "En 2016, lanzó Universe, una plataforma de software para medir y entrenar la inteligencia general de IA en todo el suministro de juegos, sitios web y otras aplicaciones del mundo",
-            "imagen": "-"
+            "hitos": "En 2016, lanzó Universe, una plataforma de software para medir y entrenar la inteligencia general de IA en todo el suministro de juegos, sitios web y otras aplicaciones del mundo"
         }
     ]
 }
